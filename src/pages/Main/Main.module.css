@@ -1,0 +1,11 @@
+.boxItem{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 40px;
+    background: rgb(195,195,195);
+    background: linear-gradient(90deg, rgba(195,195,195,1) 0%, rgba(0,253,255,1) 100%);
+    width: 500px;
+    
+}

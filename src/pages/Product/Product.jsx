@@ -5,7 +5,10 @@ import style from './Product.module.css'
 
 const Product = (props) => {
   const {id} = useParams()
-  const product = props.prods[id]
+
+  let product = props.prods.find((el) => el.id === +id)
+  
+  
     return (
         <div className={style.element}>
         <h2>{product.title}</h2>
